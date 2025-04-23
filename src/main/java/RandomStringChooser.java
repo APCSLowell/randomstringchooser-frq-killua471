@@ -22,7 +22,7 @@ public class RandomStringChooser
       available--;
       return temp;
     }else{
-      getNext();
+      return getNext();
     }
   }
   //Heads up! 

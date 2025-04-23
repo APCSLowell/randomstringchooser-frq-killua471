@@ -10,7 +10,7 @@ public class RandomStringChooser
   }
   public String getNext(){
     String temp;
-    int randomN=(int)(Math.random()*main.length);
+    int randomN=(int)(Math.random()*main.size());
     if(main.size()==0){
       return "NONE";
     }else{

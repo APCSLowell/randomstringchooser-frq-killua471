@@ -14,7 +14,7 @@ public class RandomStringChooser
     }
     int randomN=(int)(Math.random()*main.size());
     main.remove(randomN);
-    }
+    
 
   }
   //Heads up! 

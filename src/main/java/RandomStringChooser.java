@@ -13,7 +13,7 @@ public class RandomStringChooser
       return "NONE";
     }
     int randomN=(int)(Math.random()*main.size());
-    main.remove(randomN);
+    return main.remove(randomN);
     
 
   }
